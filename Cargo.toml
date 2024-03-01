@@ -1,0 +1,11 @@
+[package]
+name = "flowfix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ollama-rs = "0.1.7"
+wl-clipboard-rs = "0.8.0"
+tokio = { version = "1", features = ["full"] }
